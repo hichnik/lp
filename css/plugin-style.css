@@ -1,0 +1,31 @@
+*:focus
+{
+	outline: none;
+}
+
+.contact_form input 
+{
+	height: 25px;
+	padding: 8px 5px;
+	transition: padding 0.25s;
+}
+.contact_form input:required
+{
+	background: #fff
+	url("../images/form/form_asterisk.png")
+	 no-repeat 98% center;
+}
+.contact_form input:valid
+{
+	background: #fff
+	url("../images/form/form_valid.png")
+	no-repeat 98% center;
+}
+
+.contact_form input:focus:invalid
+{
+	background: #fff
+	url("../images/form/form_invalid.png")
+	no-repeat 98% center;
+	box-shadow: 0 0 5px #d45252;
+}
