@@ -1,0 +1,12 @@
+body 
+{	margin: 10% auto;
+	text-align: center;
+}
+
+#form-icon_name 
+{
+	margin: 3px 0px;
+	width: 235px;
+	padding-left: 10px;
+	border: 1px solid #cacaca;
+}
